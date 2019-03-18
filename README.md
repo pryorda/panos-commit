@@ -22,3 +22,7 @@ variables:
   will be ignored if this is configured.
 * `PANOS_USERNAME` - Required if `PANOS_API_KEY` is unset
 * `PANOS_PASSWORD` - Required if `PANOS_API_KEY` is unset
+
+## Create Archive
+
+` cd pkg && tar cvzf ~/git/place/pan-commit.tgz darwin_amd64 linux_amd64 windows_amd64 `
